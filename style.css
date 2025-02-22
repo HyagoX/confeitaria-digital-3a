@@ -111,14 +111,14 @@ header {
 
 .name-box {
     width: 250px;
-    height: 80px;  /* Diminuímos a altura para ajustar o texto */
+    height: 80px;
     background-color: #5B3A30;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    font-size: 20px;  /* Reduzimos o tamanho da fonte do nome */
+    font-size: 20px; 
     font-weight: 700;
     margin-top: -25px;
 }
@@ -127,7 +127,7 @@ header {
     display: block;
     margin-top: 5px;
     font-size: 18px;
-    color: #A8A8A8;  /* Cor cinza */
+    color: #4e4343;
     font-weight: 500;
 }
 
