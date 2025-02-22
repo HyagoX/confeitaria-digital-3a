@@ -94,13 +94,11 @@ header {
     justify-content: space-between;
     margin-top: 101px;
     padding: 0 115px;
-    flex-wrap: wrap;  /* Permite que os itens se ajustem em várias linhas se necessário */
 }
+
 
 .image-item {
     text-align: center;
-    flex: 1 1 22%;  /* Ajusta o tamanho para que os itens ocupem 22% do espaço disponível */
-    margin: 10px;  /* Adiciona um pequeno espaço entre os itens */
 }
 
 .image-container {
@@ -108,41 +106,32 @@ header {
     transition: transform 0.3s ease;
 }
 
+
 .image-container img {
-    width: 100%;  /* Faz as imagens se ajustarem ao tamanho disponível */
+    width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 15px;
 }
 
+
 .name-box {
-    width: 100%;
-    font-size: 25px;
-    font-weight: 700;
-    margin-top: -25px;
+    width: 250px;
+    height: 100px;
     background-color: #5B3A30;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: -25px;
 }
 
-.price {
-    font-size: 18px;
-    color: #A8A8A8;  /* Cor cinza */
-    font-weight: 500;
-    margin-top: 10px;
-    transition: transform 0.3s ease, font-size 0.3s ease;
-}
 
-.image-container:hover .price {
-    font-size: 20px;  /* Aumentar o tamanho do preço no hover */
-    transform: scale(1.05);  /* Aumenta ligeiramente o preço */
-}
-
-.image-container:hover .name-box {
-    transform: scale(1.1);  /* Aumenta o nome do bolo também */
+.image-container:hover {
+    transform: scale(1.1);
 }
 
 footer {
