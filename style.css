@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-
 }
 
 html, body {
@@ -9,7 +8,6 @@ html, body {
     margin: 0;
     padding: 0;
     background-image: url(img/background.jpg);
-    
 }
 
 .container {
@@ -36,7 +34,6 @@ header {
     color: #5B3A30;
     font-style: none;
     text-decoration: none;
-
 }
 
 .nav{
@@ -96,7 +93,6 @@ header {
     padding: 0 115px;
 }
 
-
 .image-item {
     text-align: center;
 }
@@ -106,7 +102,6 @@ header {
     transition: transform 0.3s ease;
 }
 
-
 .image-container img {
     width: 250px;
     height: 250px;
@@ -114,21 +109,27 @@ header {
     border-radius: 15px;
 }
 
-
 .name-box {
     width: 250px;
-    height: 100px;
+    height: 80px;  /* Diminuímos a altura para ajustar o texto */
     background-color: #5B3A30;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 20px;  /* Reduzimos o tamanho da fonte do nome */
     font-weight: 700;
     margin-top: -25px;
 }
 
+.price {
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #A8A8A8;  /* Cor cinza */
+    font-weight: 500;
+}
 
 .image-container:hover {
     transform: scale(1.1);
@@ -162,7 +163,6 @@ footer {
         font-size: 16px;
     }
 
-
     .container {
         height: 300px;
         padding: 0 20px;
@@ -172,7 +172,6 @@ footer {
         font-size: 20px;
         padding: 10px;
     }
-
 
     .image-list {
         display: block;
@@ -193,6 +192,10 @@ footer {
     .name-box {
         width: 100%;
         font-size: 18px;
+    }
+
+    .price {
+        font-size: 16px;
     }
 
     footer {
