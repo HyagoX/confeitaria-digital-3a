@@ -31,9 +31,27 @@ header {
     font-style: normal;
     font-weight: 700;
     margin-top: 10px;
-    color: #5B3A30;
+    color: #4e4343;
     font-style: none;
     text-decoration: none;
+}
+
+.nav__links:hover {
+    color: #5B3A30;
+    transition-duration: 300ms;
+
+}
+
+.nav__underline{
+    height: 10px;
+    width: 0px;
+    background-color: #5B3A30;
+
+}
+
+.nav__underline:hover{
+    width: fit-content;
+    transition-duration: 300ms;
 }
 
 .nav{
