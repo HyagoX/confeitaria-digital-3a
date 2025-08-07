@@ -50,7 +50,7 @@ header {
 }
 
 .nav__underline:hover{
-    width: fit-content;
+    width: 50px;
     transition-duration: 300ms;
 }
 
